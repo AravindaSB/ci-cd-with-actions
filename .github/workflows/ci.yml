@@ -10,7 +10,8 @@ on:
     branches: [ main ]
 
 jobs:
-  build-test: Main Workflow
+  build-test:
+    name: Build and test
 
     runs-on: ubuntu-latest
 
